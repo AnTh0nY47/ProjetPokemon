@@ -1,0 +1,131 @@
+:root {
+    --green: rgba(61,122,107,1);
+  }
+main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+article{
+    width: 350px;
+    border-radius: 20px;
+    border: 10px solid rgb(15, 1, 1);
+    background-color: rgb(140, 124, 124);
+    overflow: hidden;
+    margin: 10px;
+    -webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.74);
+    box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.74);
+
+}
+
+picture{
+    display: block;
+    background-color: rgba(0,0,0,0.25);
+}
+
+
+article img{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+figcaption{
+    background-color: rgba(255,255,255,0.5);
+    position: relative;
+}
+
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 15px
+}
+
+h2{
+    text-align: center;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+}
+
+.types{
+    background-color: #000;
+    color: #fff;
+    padding : 5px 10px;
+    position: absolute;
+    top : -10px;
+    left : 10px;
+    border-radius: 5px;
+}
+
+
+
+
+header{
+    padding: 30px 5% 0;
+    font-family: sans-serif;
+}
+
+.controles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: flex-end;
+}
+
+.controles label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.controles select{
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    min-width: 210px;
+    background-color: #fff;
+}
+
+#compteur{
+    margin-left: auto;
+    font-size: 14px;
+    color: #555;
+}
+
+.types-boutons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+.bouton-type{
+    border: 3px solid transparent;
+    border-radius: 20px;
+    padding: 6px 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.bouton-type:hover{
+    opacity: 0.85;
+}
+
+.bouton-type.actif{
+    border-color: #000;
+}
+
+.message{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #555;
+}
